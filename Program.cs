@@ -29,6 +29,8 @@ try
 
         partida.executaMovimento(origem, destino);
     }
+    Console.Clear();
+    Tela.imprimirPartida(partida);
 }catch (TabuleiroException e)
 {
     Console.WriteLine(e.Message);
